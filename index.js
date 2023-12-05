@@ -1,5 +1,6 @@
 const { count } = require('console');
 const express = require('express');//import express library
+const { config } = require('process');
 const server = express();//set up a server
 server.use(express.json());//to send request via post body Raw json
 //API#1:Calculate Car Value
@@ -73,3 +74,4 @@ server.post('/quote',(req,res)=>{
 server.listen(8001,()=>{
     console.log('Server is started and listening on port 8001');
 });
+module.exports = server;
