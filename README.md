@@ -1,5 +1,5 @@
 # Mission1
-This project is to create three APIs and TDD for one of the API.
+This project is to create three APIs and TDD for one of the APIs.
 1. APIs:
 * API#1:Calculate Car Value based on user's two inputs: model and year of the car.
 * API#2 Convert Claim History to a Risk Rating
