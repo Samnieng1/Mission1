@@ -8,3 +8,4 @@ This project is to create three APIs and TDD for one of the APIs.
 * The testing was created for API#2: onvert Claim History to a Risk Rating
 # Built With
 This project is built with JavaScript on Server using Express and the testing is created using Jest.
+## Hosted on Azure
