@@ -2,8 +2,7 @@ name: Mission1 Pipeline
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
     push:
-        branches:
-            - main
+        
 jobs:
   build:
 
